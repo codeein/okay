@@ -1,0 +1,99 @@
+<html>
+<title>Dynamic-Interception-Proxy</title>
+        <link id="favicon" rel="icon" href="https://cdn.glitch.global/08b4ac66-1815-482b-a7b8-ed25560d4aa1/dip.jpeg?v=1665611076534" type="image/x-icon" />
+<script>function aboutblank() {
+var win = window.open(); win.document.body.style.margin = '0'; win.document.body.style.height = '100vh'; var f = win.document.createElement("iframe"); window.focus(); var url = "https://dip-proxy.glitch.me/"; if (!url) return; f.style.width = "100%"; f.style.height = "100%"; f.style.border = 'none'; f.style.margin = '0'; win.document.body.appendChild(f); f.src=url
+}</script>
+  <center>
+    <div class="head">
+      <h1>Dynamic-Interception-Proxy</h1>
+      <p>Ported By: Brodie Johnson</p>
+    </div>
+    
+    <div class="center2">
+      <img
+        src="https://cdn.glitch.global/08b4ac66-1815-482b-a7b8-ed25560d4aa1/dip.jpeg"
+        height="30px"
+      />
+      <form class="dipform">
+        <input class="dipinput" placeholder="Search using DIP or Paste a URL" />
+      </form>
+      <img
+        src="https://cdn.glitch.global/08b4ac66-1815-482b-a7b8-ed25560d4aa1/uv.png"
+        height="30px"
+      />
+      <form class="uvform">
+        <input
+          class="uvinput"
+          placeholder="Search using Ultraviolet or Paste a URL"
+        />
+      </form>
+      <br>
+<a href="I.html">UV Theme</a><br><br>
+            <button onclick="aboutblank()">Cloak Site</button>
+      <script src="/dip/dip.config.js"></script>
+      <script src="/dip/dip.page.js"></script>
+      <script src="/uv/uv.bundle.js"></script>
+      <script src="/uv/uv.config.js"></script>
+      <script src="/index.js"></script>
+      
+    </div>
+  </center>
+  <style>
+    img {
+      position: relative;
+      right: 28%;
+      top: 35px;
+      border-radius: 10px;
+    }
+    input {
+      padding: 10px;
+      width: 50%;
+      border: 0.5px lightgray solid;
+      border-radius: 25px;
+      color: #CBC3E3;
+      outline: none;
+    }
+    .center2 {
+      position: absolute;
+      width: 50%;
+      padding: 5px;
+      top: -50%;
+      left: 50%;
+      transform: translate(-50%, 210%);
+    }
+    .head {
+      position: absolute;
+      top: -50%;
+      left: 50%;
+      transform: translate(-50%, 400%);
+      font-family: sans-serif;
+      color: #CBC3E3;
+      font-weight: 500;
+    }
+    h1 {
+      font-weight: 500;
+    }
+    body {
+      background: white;
+    }
+    p {
+      color: lightgray
+    }
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #CBC3E3;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #CBC3E3;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #CBC3E3;
+}
+    a {color: white; background: #CBC3E3; border: 0px; padding: 10px; border-radius: 20px; font-family: sans-serif;text-decoration: none;}
+    
+     button {color: white; background: #CBC3E3; border: 0px; padding: 10px; border-radius: 20px; font-family: sans-serif;}
+  </style>
+</html>
